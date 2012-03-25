@@ -1,5 +1,8 @@
 source 'http://ruby.taobao.org'
 
+gem 'execjs'
+gem 'therubyracer'
+
 gem "rails", "3.2.2"
 gem "rails-i18n","0.1.8"
 gem "jquery-rails", "1.0.16"
@@ -58,6 +61,7 @@ gem "pygments.rb", '~> 0.2.4'
 gem "settingslogic", "~> 2.0.6"
 
 gem "cells", "3.7.1"
+gem "treetop"
 
 # 队列
 gem "resque", "~> 1.20.0", :require => "resque/server"
