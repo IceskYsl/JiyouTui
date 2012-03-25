@@ -8,9 +8,9 @@ SiteConfig.save_default("index_html",<<-eos
 <div class="box" style="text-align:center;">
   <p><img alt="Big_logo" src="/assets/big_logo.png"></p>
   <p></p>
-  <p>Ruby China Group， 致力于构建完善的 Ruby 中文社区。</p>
-  <p>功能正在完善中，欢迎 <a href="http://github.com/huacnlee/ruby-china">贡献代码</a> 。</p>
-  <p>诚邀有激情的活跃 Ruby 爱好者参与维护社区，联系 <b style="color:#c00;">lgn21st@gmail.com</b></p>
+  <p>机友推， 致力于构建不一样的智能机玩家社区。</p>
+  <p>功能正在完善中，欢迎 <a href="https://github.com/IceskYsl/JiyouTui">贡献代码</a> 。</p>
+  <p>诚邀有激情的活跃 Ruby/Android/iOS/WP7/Mac/Windows 爱好者参与维护社区，联系 <b style="color:#c00;">iceskysl@gmail.com</b></p>
 </div>
 eos
 )
@@ -26,7 +26,7 @@ eos
 # Footer HTML
 SiteConfig.save_default("footer_html",<<-eos
 <p class="copyright">
- &copy; Ruby China Group.
+ &copy; JiyouTui.com.
 </p>
 eos
 )
@@ -65,7 +65,7 @@ eos
 
 # 酷站列表首页头的HTML
 SiteConfig.save_default("site_index_html",<<-eos
-下面列出了基于 Ruby 语言开发的网站。如果你知道还有不在此列表的，请帮忙补充。
+下面列出推友们经常去的网站。如果你知道还有不在此列表的，请帮忙补充。
 eos
 )
 
