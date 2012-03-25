@@ -1,16 +1,16 @@
 defaults: &defaults
-  app_name: "Ruby China Group"
-  foot_html: "&copy; Ruby China Group."
-  domain: "127.0.0.1:3000"    
+  app_name: "机友推"
+  foot_html: "&copy; 机友推."
+  domain: "http://www.jiyoutui.com"    
   admin_emails: 
-    - "admin@admin.com"
+    - "admin@jiyoutui.com"
   google_analytics_key: ""
   upload_url: "http://ruby-china-files-dev.b0.upaiyun.com"
   upyun_username: "test"
   upyun_password: "123123"
   upyun_bucket: "ruby-china-files-dev"
   google_group_email: "shanghaionrails@googlegroups.com"
-  email_sender: 'no-reply@ruby-china.org'
+  email_sender: 'no-reply@jiyoutui.com'
   aws_access_key_id: ''
   aws_secret_access_key: ''
   twitter_token: "uJ9fBa53SmqrHBqs1qq5cg"
@@ -22,7 +22,7 @@ defaults: &defaults
   google_js_api_key: "ABQIAAAAC-ble-vmy_g7-Qvem5P86xTX2XchcwgyHzp4Xo0DHRAzt2aLjhQnflwIyCJBOWYCE_rFuUkE0qEmhw"
   external_feed_url: "http://ruby-taiwan.org/topics/feed"
   external_feed_name: "Ruby Taiwan Group"
-  twitter_id: "ruby_china"
+  twitter_id: "jiyoutui"
   gravatar_proxy: "http://gravatar.com"
 
 development:

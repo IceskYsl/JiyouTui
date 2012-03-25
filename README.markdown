@@ -12,6 +12,7 @@ This is the source code of [Ruby China Group](http://ruby-china.org)
   bundle install
   rake assets:precompile
   rake db:seed
+  ./script/unicorn.start.sh
   thin start -O -C config/thin.yml
   ./script/resque start
   bundle exec rake sunspot:solr:start

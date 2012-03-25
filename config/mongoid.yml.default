@@ -9,15 +9,15 @@ defaults: &defaults
 
 development:
   <<: *defaults
-  database: ruby_china_dev
+  database: jiyoutui_dev
 
 test:
   <<: *defaults
-  database: ruby_china_test
+  database: jiyoutui_test
 
 # set these environment variables on your prod server
 production:
-  database: ruby_china
+  database: jiyoutui
   host: '127.0.0.1'
   # port: 
   # username: ''

@@ -10,13 +10,14 @@ rails_env = ENV["RAILS_ENV"] || "production"
 preload_app true
 working_directory Rails.root
 pid "#{Rails.root}/tmp/pids/unicorn.pid"
+
 stderr_path "#{Rails.root}/log/unicorn.log"
 stdout_path "#{Rails.root}/log/unicorn.log"
 
-listen 5000, :tcp_nopush => false
+listen Rails.root + "/tmp/sockets/unicorn.sock", :backlog => 64
+listen 8000, :tcp_nopush => false
 
-listen "/tmp/unicorn.ruby-china.sock"
-worker_processes 6
+worker_processes 4
 timeout 120
 
 if GC.respond_to?(:copy_on_write_friendly=)
